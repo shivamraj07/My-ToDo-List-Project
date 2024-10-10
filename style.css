@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe867;
+  height: 100vh;
+  padding: 20px;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.todo-items-heading {
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border: 2px solid #fb7303;
+  border-radius: 10px;
+  border-width: 0;
+  margin-top: 10px;
+  padding: 15px;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  color: rgb(8, 8, 8);
+  background-color: #fb7303;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  scale: 0.9;
+  border-width: none;
+}
+
+.label-container {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  border-width: 2px;
+  border-color: #fb7303;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  padding: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
